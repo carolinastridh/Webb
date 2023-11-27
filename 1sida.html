@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Webbshop</title>
+   <link rel="stylesheet" href="1sida.css">
+</head>
+<body>
+   <li><a href="smycken.html">Tillbaka</a></li>
+
+
+   <div id="kundvagn" onclick="toggleCart()">
+       <span>🛒</span>
+       <span id="cartCount">0</span>
+   </div>
+
+
+   <div class="product-container">
+       <img src="ring.png" alt="Produktbild">
+       <div class="product-details">
+           <h2>Safira Ring</h2>
+           <p>Klassisk design med stilren kristall</p>
+           <p>Mått sten: 5 x 5 mm</p>
+           <p>Ring i silver</p>
+           <p>Pris: <span id="productPrice">450</span> kr</p>
+           <div class="product-actions">
+               <button id="addToCartBtn" onclick="addToCart()">Lägg till i Varukorgen</button>
+            </div>
+            <form>
+                <fieldset class="rating">
+                    <legend>Betyg:</legend>
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+ 
+ 
+    <div id="cartContainer">
+        <h2>Varukorg</h2>
+        <ul id="cartItemsList"></ul>
+        <p>Totalt: <span id="cartTotal">0</span> kr</p>
+    </div>
+ 
+ 
+    <script src="script.js"></script>
+ </body>
+ </html>

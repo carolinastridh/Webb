@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ li {
+    list-style: none;
+ }
+ 
+ 
+ #kundvagn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+ }
+ 
+ 
+ #kundvagn span {
+    font-size: 24px;
+    margin-right: 5px;
+ }
+ 
+ 
+ #cartContainer {
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+ }
+ 
+ 
+ .product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+ }
+ 
+ 
+ img {
+    max-width: 100%;
+    max-height: 400px;
+    border: 2px solid #ddd;
+ }
+ 
+ 
+ .product-details {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ 
+ .product-details h2 {
+    color: #333;
+    font-size: 28px;
+ }
+ 
+ 
+ .product-details p {
+    color: #555;
+    font-size: 16px;
+ }
+ 
+ 
+ .product-actions {
+    margin-top: 20px;
+ }
+ 
+ 
+ button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ 
+ 
+ button:hover {
+    background-color: grey;
+ }
+ 
+ 
+ #cartItemsList {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ 
+ #cartItemsList li {
+    margin-bottom: 5px;
+ }
+ .rating {
+    margin-top: 20px;
+ }
+ .rating input {
+    display: none;
+ }
+ .rating label {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ddd;
+ }
+ .rating label:before {
+    content: '\2605';
+ }
+ .rating input:checked ~ label {
+    color: #555;
+ }
+ 

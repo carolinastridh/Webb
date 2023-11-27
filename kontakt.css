@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+ }
+ 
+ 
+ header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(b.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+ }
+ 
+ 
+ ul{
+    float: inline-start;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 40px;
+    font-size: 16px;
+ }
+ 
+ 
+ ul li {
+    display: inline-block;
+ 
+ 
+ }
+ 
+ 
+ ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+ }
+ 
+ 
+ ul li a:hover{
+    background-color: #fff;
+    color: #000;
+ 
+ 
+ }
+ 
+ 
+ ul li.active a{
+    background-color: #fff;
+    color: #000;
+ }
+ 
+ 
+ .main{
+    max-width: 1200px;
+    margin: auto;
+ }
+ 
+ 
+ .body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+ }
+ 
+ 
+ .header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+ }
+ 
+ 
+ .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+ }
+ 
+ 
+ .title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+ 
+ }
+ 
+ 
+ body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+ }
+ 
+ 
+ header{
+    background-color: #333;
+    color: #000;
+    text-align: center;
+    padding: 1em;
+    margin-top: 0px;
+ }
+ 
+ 
+ section{
+    max-width: 600px;
+    margin: 110px auto;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ 
+ label{
+    display: block;
+    margin-bottom: 10px;
+ }
+ 
+ 
+ input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+ }
+ 
+ 
+ button{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+ }
+ 
+ 
+ button:hover{
+    background-color: #555;
+ }
+ 
+ 
+ .title{
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    transform: translate(-50%,-50%);
+ }
+ 
